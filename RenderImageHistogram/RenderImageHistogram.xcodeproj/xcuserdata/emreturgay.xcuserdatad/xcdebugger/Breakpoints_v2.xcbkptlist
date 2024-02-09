@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F8092D9B-8FC3-48A8-B870-0131B6BD2545"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF3712DB-B92B-45D5-9C3B-F0F271AD8C03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "loadTexture()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FDEB365-CE44-4128-8D20-4410E0596653"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FDEB365-CE44-4128-8D20-4410E0596653 - b3427d001e3eb658"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "3924">
+               </Location>
+               <Location
+                  uuid = "4FDEB365-CE44-4128-8D20-4410E0596653 - b3427d001e3eb658"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "4584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D5CEAC7-3DB4-4782-9994-DC33BE09218D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A88613C2-3F7A-4DAA-B989-137E16D44F8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82BD139C-C995-499D-8657-2B104640C85C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "82BD139C-C995-499D-8657-2B104640C85C - db498b3c0f02b039"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "3232">
+               </Location>
+               <Location
+                  uuid = "82BD139C-C995-499D-8657-2B104640C85C - 4304239bcca949be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "217"
+                  endingLineNumber = "217"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "82BD139C-C995-499D-8657-2B104640C85C - 4304239bcca94bcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "232"
+                  endingLineNumber = "232"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B638EAC5-E513-435F-845C-1706A2F21EF0"
+            shouldBeEnabled = "No"
+            condition = "index == 50"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "321"
+            endingLineNumber = "321"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B638EAC5-E513-435F-845C-1706A2F21EF0 - 4304239bcca94bec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "1584">
+               </Location>
+               <Location
+                  uuid = "B638EAC5-E513-435F-845C-1706A2F21EF0 - 4304239bcca94bec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "1864">
+               </Location>
+               <Location
+                  uuid = "B638EAC5-E513-435F-845C-1706A2F21EF0 - 4304239bcca945fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "1864">
+               </Location>
+               <Location
+                  uuid = "B638EAC5-E513-435F-845C-1706A2F21EF0 - 4304239bcca945bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "248"
+                  endingLineNumber = "248"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93d9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "2288">
+               </Location>
+               <Location
+                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93e7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "312"
+                  endingLineNumber = "312"
+                  offsetFromSymbolStart = "720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAC1A042-C605-4820-A043-64F92C0C61A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AAC1A042-C605-4820-A043-64F92C0C61A2 - 4304239bcca944e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "239"
+                  endingLineNumber = "239"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  uuid = "AAC1A042-C605-4820-A043-64F92C0C61A2 - 4304239bcca944e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "239"
+                  endingLineNumber = "239"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B98C892-49A9-4BB6-86FC-A8023D765CDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03363900-C009-4B82-AAF9-C9F8F3943DA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RenderImagePoints/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03363900-C009-4B82-AAF9-C9F8F3943DA5 - db498b3c0f02bdc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "257"
+                  endingLineNumber = "257"
+                  offsetFromSymbolStart = "6988">
+               </Location>
+               <Location
+                  uuid = "03363900-C009-4B82-AAF9-C9F8F3943DA5 - 4304239bcca94612"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
