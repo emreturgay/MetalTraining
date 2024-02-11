@@ -23,16 +23,6 @@ struct VertexInOut {
 
 // Metal Shader File (MyShaders.metal)
 
-kernel void computeHistogram(texture2d<float> inputTexture [[texture(0)]],
-                             device atomic_uint *histogram [[ buffer(0) ]],
-                             uint2 gid [[ thread_position_in_grid ]]) {
-    constexpr sampler textureSampler(coord::normalized, address::clamp_to_edge, filter::nearest);
-    float4 pixel = inputTexture.sample(textureSampler, float2(gid) / float2(inputTexture.get_width(), inputTexture.get_height()));
-    uint bin = atomic_fetch_add_explicit(&histogram[(uint)(pixel.r * 255)], 1, memory_order_relaxed);
-}
-
-
-
 kernel void computeRedHistogram(
     texture2d<float, access::read> inputTexture [[texture(0)]],
     device atomic_uint* histogram [[buffer(0)]],
@@ -43,10 +33,25 @@ kernel void computeRedHistogram(
     float4 pixelColor = inputTexture.read(gid);//.sample(imgSampler, texCoord);
 
     // Assuming the histogram has 256 bins for the 256 possible intensity values of the red channel
-    uint binIndex = clamp(uint(pixelColor.r * 255.0f), 0u, 255u);
+    uint binIndex = clamp(uint(pixelColor.b * 255.0f), 0u, 255u);
     atomic_fetch_add_explicit(&histogram[binIndex], 1, memory_order_relaxed);
 }
 
+kernel void computeHistogram(
+    texture2d<float, access::read> inputTexture [[texture(0)]],
+    device atomic_uint* histogramRGB [[buffer(0)]],
+    uint2 gid [[thread_position_in_grid]]
+) {
+    float4 pixelColor = inputTexture.read(gid);
+
+    // Assuming the histogram has 256 bins for the 256 possible intensity values of the red channel
+    uint binIndexR = clamp(uint(pixelColor.r * 255.0f), 0u, 255u);
+    uint binIndexG = clamp(uint(pixelColor.g * 255.0f), 0u, 255u);
+    uint binIndexB = clamp(uint(pixelColor.b * 255.0f), 0u, 255u);
+    atomic_fetch_add_explicit(&histogramRGB[binIndexR], 1, memory_order_relaxed);
+    atomic_fetch_add_explicit(&histogramRGB[binIndexG + 256], 1, memory_order_relaxed);
+    atomic_fetch_add_explicit(&histogramRGB[binIndexB + 512], 1, memory_order_relaxed);
+}
 
 vertex VertexInOut vertexShaderHistogram(uint vertexID [[vertex_id]],
                               constant VertexInOut *vertices [[buffer(0)]],

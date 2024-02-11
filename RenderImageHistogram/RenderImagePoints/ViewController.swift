@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     var textureTest: MTLTexture?
     var pixelDataBuffer: MTLBuffer! = nil
     var bufferSize: Int = 0
-    var histogramBuffer: MTLBuffer!
+    var histogramBufferRGB: MTLBuffer!
     
     struct Vertex {
         var position: vector_float4
@@ -135,7 +135,7 @@ class ViewController: UIViewController {
         // init computeshader pipeine state
         
         guard let library = device.makeDefaultLibrary(),
-              let function = library.makeFunction(name: "computeRedHistogram")
+              let function = library.makeFunction(name: "computeHistogram")
         else {
             fatalError("Unable to create Metal objects")
         }
@@ -145,8 +145,8 @@ class ViewController: UIViewController {
             fatalError("Unable to create render pipeline state: \(error)")
         }
         // Initialize histogram buffer with 256 bins set to 0
-        histogramBuffer = device.makeBuffer(length: 256 * MemoryLayout<UInt32>.size, options: .storageModeShared)
-        memset(histogramBuffer.contents(), 0, 256 * MemoryLayout<UInt32>.size)
+        histogramBufferRGB = device.makeBuffer(length: 3 * 256 * MemoryLayout<UInt32>.size, options: .storageModeShared)
+        memset(histogramBufferRGB.contents(), 0, 3 * 256 * MemoryLayout<UInt32>.size)
         
         computeHistogram(for: textureLenna!)
         
@@ -258,7 +258,7 @@ class ViewController: UIViewController {
         
         computeEncoder.setComputePipelineState(pipelineStateCompute)
         computeEncoder.setTexture(texture, index: 0)
-        computeEncoder.setBuffer(histogramBuffer, offset: 0, index: 0)
+        computeEncoder.setBuffer(histogramBufferRGB, offset: 0, index: 0)
         
         let threadGroupSize = MTLSize(width: 8, height: 8, depth: 1) // Example size, adjust based on your texture
         let threadGroups = MTLSize(width: (texture.width + threadGroupSize.width - 1) / threadGroupSize.width,
@@ -274,12 +274,12 @@ class ViewController: UIViewController {
         // At this point, the histogramBuffer contains the histogram data
         // You can read it back to the CPU to process or display it
         
-        let histogramDataPointer = histogramBuffer.contents().bindMemory(to: UInt32.self, capacity: 256)
-        let histogramData = Array(UnsafeBufferPointer(start: histogramDataPointer, count: 256))
+        let histogramDataPointer = histogramBufferRGB.contents().bindMemory(to: UInt32.self, capacity: 256 * 3)
+        let histogramData = Array(UnsafeBufferPointer(start: histogramDataPointer, count: 256 * 3))
         // Now you have the histogram data as an array of UInt32
         // Print the histogram data
         for (index, value) in histogramData.enumerated() {
-            print("Bin \(index) \t \(value)")
+            print("Bin \t \(index) \t \(value)")
         }
 
         
@@ -312,7 +312,7 @@ extension ViewController: MTKViewDelegate {
         let vertexBuffer = device.makeBuffer(bytes: quadVertices, length: quadVertices.count * MemoryLayout<Vertex>.stride, options: [])
         
         // Create a buffer for the parameters
-        var shaderParams = ShaderUniforms(channel: 0, channelMask: vector_float4(1.0, 0.0, 0.0, 1.0))
+        var shaderParams = ShaderUniforms(channel: 2, channelMask: vector_float4(1.0, 0.0, 0.0, 1.0))
         let paramsBuffer = device.makeBuffer(bytes: &shaderParams,
                                              length: MemoryLayout<ShaderUniforms>.size,
                                              options: [])
