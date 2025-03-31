@@ -148,7 +148,14 @@ class ViewController: UIViewController {
         histogramBufferRGB = device.makeBuffer(length: 3 * 256 * MemoryLayout<UInt32>.size, options: .storageModeShared)
         memset(histogramBufferRGB.contents(), 0, 3 * 256 * MemoryLayout<UInt32>.size)
         
+        
+        let startTime = Date()
         computeHistogram(for: textureLenna!)
+        // Calculate the elapsed time
+        let elapsedTime = Date().timeIntervalSince(startTime)
+
+        // Print the elapsed time in seconds
+        print("Elapsed time: \(elapsedTime) seconds")
         
     }
         
@@ -281,6 +288,7 @@ class ViewController: UIViewController {
         for (index, value) in histogramData.enumerated() {
             print("Bin \t \(index) \t \(value)")
         }
+        
 
         
     }
@@ -365,7 +373,7 @@ extension ViewController: MTKViewDelegate {
                 let r = data[index + 2]
                 let a = data[index + 3]
 
-                //print("Pixel \(i): (R: \(r), G: \(g), B: \(b), A: \(a))")
+                //print("Pixel \(i): (R: \t \(r) \t  G: \t \(g) \t  B: \t \(b) ")
                 
                 print("Pixel \t  \(i) \t \(r)")
             }

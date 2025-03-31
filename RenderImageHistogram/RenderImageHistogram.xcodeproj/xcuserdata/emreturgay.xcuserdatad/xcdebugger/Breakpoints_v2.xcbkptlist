@@ -14,8 +14,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "loadTexture()"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "354"
-            endingLineNumber = "354"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
             landmarkName = "draw(in:)"
             landmarkType = "7">
             <Locations>
@@ -174,8 +174,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "368"
-            endingLineNumber = "368"
+            startingLineNumber = "376"
+            endingLineNumber = "376"
             landmarkName = "draw(in:)"
             landmarkType = "7">
             <Locations>
@@ -252,13 +252,13 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "358"
-            endingLineNumber = "358"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
             landmarkName = "draw(in:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93d9c"
+                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93485"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -268,27 +268,12 @@
                   urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "311"
-                  endingLineNumber = "311"
-                  offsetFromSymbolStart = "2288">
-               </Location>
-               <Location
-                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93e7f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
-                  moduleName = "RenderImageHistogram"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "312"
-                  endingLineNumber = "312"
+                  startingLineNumber = "366"
+                  endingLineNumber = "366"
                   offsetFromSymbolStart = "720">
                </Location>
                <Location
-                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca9346c"
+                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93564"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -298,9 +283,24 @@
                   urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "359"
-                  endingLineNumber = "359"
+                  startingLineNumber = "367"
+                  endingLineNumber = "367"
                   offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  uuid = "A91D8A60-20F9-4A81-90CD-9D3B570BDEA3 - 4304239bcca93564"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.MTLCommandBuffer) -&gt; () in RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "367"
+                  endingLineNumber = "367"
+                  offsetFromSymbolStart = "752">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -315,8 +315,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "361"
-            endingLineNumber = "361"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
             landmarkName = "draw(in:)"
             landmarkType = "7">
             <Locations>
@@ -363,8 +363,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "363"
-            endingLineNumber = "363"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
             landmarkName = "draw(in:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -379,8 +379,8 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "370"
-            endingLineNumber = "370"
+            startingLineNumber = "378"
+            endingLineNumber = "378"
             landmarkName = "draw(in:)"
             landmarkType = "7">
             <Locations>
@@ -427,10 +427,42 @@
             filePath = "RenderImagePoints/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
+            startingLineNumber = "308"
+            endingLineNumber = "308"
             landmarkName = "draw(in:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66FDFFAB-52AA-4DEC-B24C-A27E233A1CAC - db498b3c0f02c6aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "66FDFFAB-52AA-4DEC-B24C-A27E233A1CAC - db498b3c0f02c6aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RenderImageHistogram.ViewController.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "RenderImageHistogram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreturgay/Projects/TrainingProjects/MetalTrainingProjects/RenderImageHistogram/RenderImagePoints/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "308"
+                  endingLineNumber = "308"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
